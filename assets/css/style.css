@@ -1,0 +1,227 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(172, 172, 172); */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+form{
+    /* width: 300px; */
+    width: 90%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px auto 10px auto;  
+    border-radius: 12px;
+}
+
+/***********************************FORM*******************************/
+
+
+
+form .title{
+    margin: 10px 10px;
+}
+
+form .title h2{
+    margin: 5px;
+}
+
+.client{
+    padding: 10px;
+}
+
+.client label{
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.client input[type="radio"]{
+    font-size: 5px;
+}
+
+/**************************************NEW****************************/
+.new{
+    display: block;
+    padding: 10px;
+}
+
+.new label{
+    display: block;
+    margin: 5px 10px;
+}
+
+.new input{
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 5px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #CACACA;
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+/*************************OLD************************/
+
+.old{
+    display: block;
+    padding: 10px;
+}
+
+.old label{
+    display: block;
+    margin: 5px 10px;
+}
+
+.old input[type="text"] {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid #CACACA;
+}
+
+
+/*******************************AMOUNT********************************/
+
+li{
+    list-style: none;
+}
+
+.amount_list{
+    padding: 0px;
+}
+
+.amount{
+    display: block;
+    padding: 10px;
+    background-color: #F9E79F;
+}
+
+.amount label{
+    display: block;
+    margin: 5px 10px;
+}
+
+.amount input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid #CACACA;
+    margin: 5px 0px;
+}
+
+.btn_less{
+    background: none;
+    border: none;
+}
+
+.btn_add span{
+    font-size: 20px;
+}
+
+.btn_add{
+    background: none;
+    border: none;
+}
+
+.btn_less span{
+    font-size: 20px;
+}
+
+
+.icon-plus-circle:before{
+    content: '\e80b';
+}
+
+.icon-plus-circle{
+    height: 25px;
+    width: 25px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+/*********************************REMARK*************************************/
+
+.remark{
+    display: block;
+    padding: 10px;
+}
+
+.remark label{
+    display: block;
+    margin: 5px 10px;
+}
+
+.remark input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid #CACACA;
+}
+
+/*********************************SUBMIT*****************************************/
+
+.sub{
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.sub input{
+    height: 25px;
+    width: 100px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DCDCDC;
+    border-radius: 6px;
+    border: 1px solid #DCDCDC;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+/**********************************RESPONSIVE 1024PX*******************************/
+
+@media(min-width:1024px){
+
+    form{
+        margin: 70px auto 70px auto;
+        padding: 50px;
+    }
+
+    .sub input{
+        width: 300px;
+        height: 40px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .amount{
+        border-radius: 12px;
+    }
+
+
+}

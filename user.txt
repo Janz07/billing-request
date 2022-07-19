@@ -1,0 +1,3 @@
+DB name: solfact
+DB username: soluser
+Password: \%yT@Lc3v)K#+#[/
